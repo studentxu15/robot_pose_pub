@@ -1,0 +1,16 @@
+<launch>
+  <!-- Dynamic reconfigure server -->
+  <!-- <node pkg="dynamic_reconfigure" type="reconfigure_gui" name="dynamic_reconfigure_gui" /> -->
+
+  <!-- Robot Pose Publisher Node -->
+  <node name="robot_pose_pub" pkg="robot_pose_pub" type="pose_publisher.py" output="screen">
+    <!-- You can set default parameters here -->
+    <!-- <param name="x" value="0.0" />
+    <param name="y" value="0.0" />
+    <param name="z" value="0.0" />
+    <param name="qx" value="0.0" />
+    <param name="qy" value="0.0" />
+    <param name="qz" value="0.0" />
+    <param name="qw" value="1.0" /> -->
+  </node>
+</launch>
